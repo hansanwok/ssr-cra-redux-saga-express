@@ -10,10 +10,10 @@ import {
   AsyncPageOther
 } from './AsyncComponents';
 
-const AppRouter = () =>
+const AppRoutes = () =>
     <Switch>
       <Route exact path='/' component={AsyncPageDefault} />
       <Route path='/other' component={AsyncPageOther} />
     </Switch>
 
-export default AppRouter;
+export default AppRoutes;
